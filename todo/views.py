@@ -10,4 +10,4 @@ def signupuser(request):
             user = User.objects.create_user(request.POST['username'], password=request.POST['password1'])
             user.save()
         else:
-            print("hello")
+            print("hello") #comment
